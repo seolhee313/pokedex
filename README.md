@@ -52,3 +52,10 @@ PokeAPI를 활용하여 포켓몬의 정보를 다룬 포켓몬 도감 사이트
 - 이 프로젝트는 [Kishan Sheth](https://www.youtube.com/@KishanSheth21)의 [튜토리얼](https://www.youtube.com/watch?v=qs2neNqLcmw)을 기반으로 합니다.
 
 ## Screenshots
+
+![image](https://github.com/seolhee313/pokedex/assets/125417882/224de9a0-ec66-4004-9d77-8e746865f3e5)
+![image](https://github.com/seolhee313/pokedex/assets/125417882/78509cb2-392c-46aa-b178-05cafa1d1ff9)
+![image](https://github.com/seolhee313/pokedex/assets/125417882/11c3c357-f437-49b1-a432-a379e8d63274)
+![image](https://github.com/seolhee313/pokedex/assets/125417882/feb58173-cd4b-4140-b59d-5a340ee6406d)
+![image](https://github.com/seolhee313/pokedex/assets/125417882/be59f258-91be-415a-99a4-7b9dfcef608a)
+![image](https://github.com/seolhee313/pokedex/assets/125417882/c9a1bd67-63d5-4485-8ddb-fa5d214a36f4)
