@@ -20,17 +20,24 @@ PokeAPI를 활용하여 포켓몬의 정보를 다룬 포켓몬 도감 사이트
 - Axios for API
 - Hosting the app on Netlify
 
-## 정보
+## 학습 내용 정리
 
-- React를 사용하여 빠르고 유연한 사용자 인터페이스를 구축했습니다.
-- React Hooks를 사용하여 상태 관리와 라이프사이클 관리를 개선했습니다.
-- React Router를 통해 다양한 페이지 간의 라우팅을 구현했습니다.
-- TypeScript를 적용하여 코드의 타입 안정성을 강화했습니다.
-- CSS3 및 SCSS를 사용하여 스타일을 적용했습니다.
-- Redux 및 Redux Toolkit을 활용하여 상태 관리를 효율적으로 처리했습니다.
-- Firebase와 Firestore를 이용하여 데이터베이스 및 인증을 구현했습니다.
-- Axios를 사용하여 외부 API 호출을 처리했습니다.
-- 앱을 Netlify에 호스팅하여 온라인에서 접근 가능하게 배포했습니다.
+💛 react-router-dom : React 기반의 웹 애플리케이션에서 브라우저 기반 라우팅을 처리하기 위한 패키지입니다. React Router 라이브러리의 DOM 버전이며, React Router는 싱글 페이지 애플리케이션(SPA)에서 브라우저의 URL과 페이지 컴포넌트를 매핑하고 관리하는 기능을 제공합니다.
+
+- useLocation : 현재 URL 정보를 얻을 수 있게 해주는 기능입니다.
+- Link : 애플리케이션에서 클라이언트 측 네비게이션을 제공하는 역할을 합니다.
+- BrowserRouter : 브라우저 기반의 라우팅을 처리하기 위해 사용되는 최상위 라우터 컴포넌트입니다.
+- Route, Routes : 웹 애플리케이션의 라우팅을 다루기 위해 사용됩니다.
+- useParams : URL 경로에서 동적으로 설정된 파라미터들을 추출할 수 있게 해주는 기능입니다.
+
+💛Redux : Redux는 Flux 아키텍처의 아이디어를 바탕으로 만들어진 상태 관리 패턴이며, 애플리케이션의 상태를 중앙 집중화하여 관리하는 방법을 제공합니다. 이를 통해 복잡한 애플리케이션에서 상태 관리를 용이하게 만들고 예측 가능한 상태 변화를 구현할 수 있습니다.
+
+Redux의 주요 구성 요소 : Action, Reducer, Store, Dispatch
+- useAppDispatch : Redux를 사용하는 리액트 애플리케이션에서 Redux store에 액션을 디스패치(dispatch)하는 데 사용되는 custom hook입니다.
+- useAppSelector : Redux를 사용하는 리액트 애플리케이션에서 Redux store의 상태(state)를 선택하기 위해 사용되는 custom hook입니다.
+- useSelector : Redux store의 상태를 선택하기 위해 사용되는 커스텀 훅입니다. 컴포넌트 내에서 useSelector를 사용하여 store의 특정 상태를 선택하고 해당 상태의 값에 접근할 수 있습니다.
+- useDispatch : Redux store에 액션을 디스패치하기 위해 사용되는 커스텀 훅입니다. useDispatch를 사용하여 액션을 디스패치하고 상태를 변경할 수 있습니다.
+- useStore : Redux store 객체에 접근하기 위해 사용되는 커스텀 훅입니다. 주로 상태와 액션을 직접 다루어야 할 경우에 사용됩니다.
 
 ## 특징
 
